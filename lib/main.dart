@@ -25,28 +25,28 @@ class HomePage extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          CircleAvatar(
+          const CircleAvatar(
             radius: 50.0,
             backgroundColor: Colors.orangeAccent,
             backgroundImage: AssetImage("assets/images/foto1.jpg"),
           ),
-          Text(
+          const Text(
             "Víctor Augusto Alegre Ibáñez",
             style: TextStyle(
                 fontSize: 22, color: Colors.white, fontFamily: "Lobster"),
           ),
-          Text(
+          const Text(
             "FLUTTER DEVELOPER",
             style: TextStyle(
                 fontSize: 20, color: Colors.white70, fontFamily: "Manrope"),
           ),
-          Divider(
+          const Divider(
             thickness: 0.9,
             indent: 70,
             endIndent: 70,
             color: Colors.white,
           ),
-          Card(
+          const Card(
             elevation: 10,
             margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 8.0),
             child: ListTile(
@@ -61,7 +61,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          Card(
+          const Card(
             elevation: 10,
             margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 8.0),
             child: ListTile(
@@ -84,12 +84,12 @@ class HomePage extends StatelessWidget {
                 "assets/images/facebook.png",
                 height: 42.0,
               ),
-              SizedBox(width: 24.0),
+              const SizedBox(width: 24.0),
               Image.asset(
                 "assets/images/twitter.png",
                 height: 42.0,
               ),
-              SizedBox(width: 24.0),
+              const SizedBox(width: 24.0),
               Image.asset(
                 "assets/images/instagram.png",
                 height: 42.0,
